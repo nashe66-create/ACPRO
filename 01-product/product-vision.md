@@ -10,11 +10,22 @@
 
 # 1. Document Purpose
 
-This document defines what ACPRO is, the problem it exists to solve, who it serves, how the product creates value, what the initial product must prove, and the principles that govern its development.
+This document is the definitive high-level product definition for ACPRO.
 
-It is the highest-level product definition for the project.
+It defines:
 
-It deliberately does **not** define detailed screens, database schemas, APIs or implementation architecture. Those belong to later gates.
+- what ACPRO is;
+- the problem it exists to solve;
+- who it serves;
+- the value it is intended to create;
+- the high-level product model;
+- the high-level MVP scope;
+- the principles that govern product development; and
+- the key boundaries of the product.
+
+This document establishes the product direction that subsequent product, technical and build documents should follow.
+
+It does **not** define detailed screens, database schemas, APIs, system architecture or implementation specifications. Those decisions belong to the relevant later-stage documents and should be developed from the product decisions established here.
 
 ---
 
