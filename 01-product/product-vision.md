@@ -31,19 +31,21 @@ It does **not** define detailed screens, database schemas, APIs, system architec
 
 # 2. Product Vision
 
-> **ACPRO is a transaction marketplace and workflow platform for residential air-conditioning installation.**
+> **ACPRO is a marketplace and workflow platform for residential air-conditioning.**
 
-The initial product connects homeowners who need domestic AC installation with qualified installers who can compete for that work.
+The initial product connects homeowners looking for residential AC with installers who can respond to those requirements.
 
-Instead of a homeowner finding one installer and accepting one quote, ACPRO is designed to turn the requirement into a structured AC installation job that suitable installers can assess, bid for and ultimately fulfil.
+ACPRO is designed to structure the process of defining an AC requirement, creating a suitable installation opportunity and connecting that opportunity with installers.
 
-The long-term ambition is to build the digital operating layer between:
+The marketplace is the starting point. Over time, ACPRO is intended to evolve from a marketplace into a **transaction marketplace**, facilitating more of the journey from homeowner requirement through to completed installation.
+
+The long-term ambition is for ACPRO to become the **operating layer for residential air-conditioning**, connecting the key participants and processes involved in delivering an AC installation.
+
+This could eventually connect:
 
 **Homeowner ↔ Installer ↔ Technical Design ↔ Equipment ↔ Merchant ↔ Transaction ↔ Ongoing Service**
 
-The marketplace is the entry point.
-
-The long-term value comes from owning and improving the workflow around the transaction.
+The product should therefore be developed in stages, with each stage validated before the next layer is built.
 
 ---
 
