@@ -174,58 +174,40 @@ These benefits are hypotheses to validate through homeowner and installer resear
 
 # 6. Who ACPRO Serves
 
-## Primary users
+## 6.1 Homeowners
 
-### Homeowners
+Homeowners are the customers who use ACPRO to define their residential air-conditioning requirements, receive installation offers and choose an installer.
 
-People seeking domestic air-conditioning installation.
+ACPRO should be designed for homeowners who may have little or no technical knowledge of air-conditioning. The platform should make it straightforward for them to describe their requirements and make an informed decision.
 
-Typical requirements may include:
+## 6.2 Verified Residential AC Installers
 
-- cooling a single room;
-- cooling multiple rooms;
-- improving comfort in bedrooms;
-- cooling living spaces;
-- home office cooling;
-- whole-home or multi-room solutions.
+Residential AC installers are the service providers who use ACPRO to discover installation opportunities, assess jobs and submit offers to homeowners.
 
-The homeowner does not need to know the correct AC terminology before starting.
+ACPRO is intended to operate as a marketplace for verified installers, rather than an unrestricted directory of individuals or businesses offering AC installation services.
 
----
+Installers must meet ACPRO's onboarding requirements before they can accept installation work through the platform.
 
-### Residential AC installers
+At a minimum, these requirements are intended to cover:
 
-Qualified businesses or individuals who install domestic air-conditioning systems.
+- **F-Gas compliance:** Appropriate individual qualifications for the work undertaken and the required company certification where applicable.
+- **Insurance:** Valid insurance appropriate to the installation business and the work being offered.
+- **Technical competence:** Evidence of the skills and competence needed to install residential AC systems safely and to the applicable standards.
+- **Electrical competence:** Appropriate qualifications or competent personnel to undertake any electrical work involved in an installation.
+- **Legal and regulatory compliance:** Compliance with applicable building regulations, health and safety obligations, refrigerant-handling requirements and other relevant legal requirements.
+- **Business verification:** Verification of the installer or business's identity and relevant business details.
 
-The initial platform is intended for installers who:
+The precise qualifications, insurance types and minimum cover levels, verification documents, renewal periods and onboarding checks will be defined in a separate installer requirements specification.
 
-- undertake residential work;
-- can assess and install AC systems competently;
-- can provide appropriate technical and installation documentation;
-- are willing to compete for marketplace opportunities.
+Installers remain responsible for ensuring that the work they undertake is within their competence and complies with the requirements applicable to that work.
 
-Specific qualification requirements are to be defined during product and operational specification.
+## 6.3 ACPRO Operations and Administration
 
----
+ACPRO's operations function will be responsible for administering the marketplace and maintaining its standards.
 
-## Secondary user
+This is expected to include managing installer applications, checking required evidence, maintaining installer records, monitoring compliance with onboarding requirements and managing installer access where requirements are no longer met.
 
-### ACPRO Operations / Administration
-
-The platform will require an operational layer to:
-
-- manage users;
-- support customers;
-- manage installers;
-- monitor jobs;
-- intervene in exceptions;
-- handle disputes;
-- monitor marketplace health;
-- maintain platform data;
-- support the pilot.
-
-The extent of automation should be determined by actual operational requirements.
-
+The scope of these responsibilities, including the level of ongoing verification and the process for suspending or removing installers, will be defined in later product and operational specifications.
 ---
 
 # 7. Product Model
