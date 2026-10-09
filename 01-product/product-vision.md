@@ -212,58 +212,59 @@ The scope of these responsibilities, including the level of ongoing verification
 
 # 7. Product Model
 
-ACPRO consists of three interconnected layers.
+ACPRO is designed to evolve through three interconnected product layers. Each layer builds on the capabilities established by the previous one.
 
-## Layer 1 — Marketplace
+## 7.1 Layer 1 — Marketplace
 
-Connects:
+The marketplace connects homeowners who need residential air-conditioning with verified installers who can assess their requirements and submit offers.
 
-**Homeowners ↔ Installers**
+Its core capabilities are intended to include:
 
-Core capabilities:
+- Homeowner job creation.
+- Structured collection of property and room information.
+- Distribution of installation opportunities to suitable installers.
+- Installer assessment of opportunities.
+- Submission and comparison of offers.
+- Homeowner selection of an installer.
 
-- job creation;
-- matching;
-- opportunity distribution;
-- installer bidding;
-- offer comparison;
-- installer selection.
+The marketplace is the starting point for ACPRO. Its purpose is to turn a homeowner's requirement into a structured installation opportunity and help the homeowner find a suitable installer.
 
----
+## 7.2 Layer 2 — Transaction Workflow
 
-## Layer 2 — Transaction Workflow
+The transaction workflow tracks an installation opportunity from the initial request through to completion.
 
-Moves a selected job towards completion.
+The intended high-level journey is:
 
-Core workflow:
+**Installation Request → Installer Offers → Installer Selection → Survey → Final Quote → Scheduling → Installation → Completion → Review**
 
-**Job → Bid → Selection → Survey → Final Quote → Schedule → Installation → Completion → Review**
+In the initial MVP, ACPRO will focus on enabling the homeowner to submit a request, receive and compare offers, and select an installer.
 
-This layer creates the transaction rather than simply generating an enquiry.
+The subsequent stages will also be tracked through to completion, but may initially rely on manual processes and status updates rather than automated workflows.
 
----
+This approach allows ACPRO to understand whether marketplace opportunities progress into completed installations without requiring the entire installation process to be automated from the outset.
 
-## Layer 3 — AC Operating Infrastructure
+The precise workflow, responsibilities of each participant and the point at which a transaction is considered complete will be defined in later product specifications.
 
-The long-term opportunity is to build infrastructure around the transaction.
+## 7.3 Layer 3 — AC Operating Infrastructure
 
-Potential capabilities include:
+The long-term ambition is to build tools and infrastructure that support more of the residential AC installation process.
 
-- technical assessment;
-- configuration;
-- equipment selection;
-- BOM generation;
-- costing;
-- procurement;
-- payments;
-- finance;
-- warranties;
-- servicing;
-- repeat work;
-- installer operating tools.
+Potential future capabilities include:
 
-These capabilities are not all part of MVP.
+- Technical assessment and design support.
+- System configuration and equipment selection.
+- Bill of materials generation.
+- Costing and procurement support.
+- Merchant integration.
+- Payments and finance through appropriate arrangements.
+- Warranty and servicing workflows.
+- Installer operating tools.
 
+These capabilities represent the longer-term direction of ACPRO, not a commitment to deliver every capability.
+
+Each capability should be assessed against evidence of customer and installer needs, commercial value, technical feasibility and the results of earlier product stages.
+
+The initial MVP should remain focused on validating the marketplace and tracking installation outcomes, rather than attempting to build the complete AC operating infrastructure.
 ---
 
 # 8. Product Evolution
