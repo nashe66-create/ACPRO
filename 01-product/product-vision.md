@@ -51,60 +51,49 @@ The product should therefore be developed in stages, with each stage validated b
 
 # 3. The Problem
 
-## 3.1 Homeowner problem
+## 3.1 Homeowner Problem
 
-A homeowner who wants air conditioning typically has to:
+Homeowners who want residential air-conditioning face a gap between knowing what they want to achieve and understanding how to get the right system installed.
 
-1. Decide what they need.
-2. Find an installer.
-3. Explain their property and requirements.
-4. Arrange a survey.
-5. Wait for a quote.
-6. Compare it, if they obtain more than one quote.
-7. Decide whether the proposed system is appropriate.
-8. Arrange installation.
-9. Manage the process through completion.
+A homeowner may know that they want a bedroom, living room or entire home to be cooler, but may not know:
 
-The homeowner may not know:
+- What type or capacity of system they need.
+- Which installation options are available.
+- Which installers are suitable for their property.
+- Whether different quotes offer comparable solutions.
+- Whether the price they have been quoted represents good value.
 
-- how much cooling they need;
-- which system architecture is appropriate;
-- which manufacturer to choose;
-- whether a single split or multi-split is better;
-- what a reasonable installation price is;
-- whether an installer is genuinely suitable;
-- whether the proposed equipment is appropriate for the property.
+To make an informed decision, homeowners may need to contact multiple installers, explain their requirements repeatedly, arrange surveys and interpret different technical proposals.
 
-The homeowner therefore faces an information and comparison problem.
+The problem is not simply finding an installer. It is being able to move from a relatively simple requirement — wanting air-conditioning — to an informed decision about the solution, installer and price.
 
-The product opportunity is to make the process easier without requiring the homeowner to become an AC technical expert.
+**Core homeowner problem:** Homeowners lack a straightforward way to define their requirements, understand their options and compare suitable installation offers.
 
----
+## 3.2 Installer Problem
 
-## 3.2 Installer problem
+Residential AC installers need to acquire suitable work and establish whether each opportunity is worth pursuing.
 
-Residential AC installers need to spend time acquiring and qualifying work before they can install anything.
+Before pricing a job, an installer may need to gather property information, understand the customer's requirements, assess the rooms, estimate cooling loads, consider installation constraints and determine what further assessment is required.
 
-A typical job may require the installer to:
+Where enquiries contain incomplete or unstructured information, installers may spend time qualifying jobs before they can determine whether to proceed or prepare a meaningful quote.
 
-- understand the customer's requirements;
-- gather property information;
-- assess rooms;
-- estimate cooling requirements;
-- determine a suitable system;
-- select equipment;
-- consider installation constraints;
-- prepare a quotation;
-- source equipment and materials;
-- schedule the work;
-- complete the installation;
-- manage completion and customer communication.
+**Core installer problem:** Installers need a more effective way to receive, assess and price suitable residential AC opportunities without unnecessary qualification and quoting effort.
 
-Generic lead-generation platforms may provide customer enquiries, but the installer can still have to do much of the qualification, technical assessment and quoting themselves.
+The extent of this problem, and installers' willingness to use and pay for a different approach, remain hypotheses to validate through market research.
 
-ACPRO's opportunity is therefore not simply to provide **another lead**.
+## 3.3 The Underlying Marketplace Problem
 
-It is to provide a **structured AC installation opportunity**.
+The homeowner's requirement is often expressed in terms of an outcome: they want their home to be cooler.
+
+Turning that requirement into an installation opportunity requires additional information about the property, rooms, expected cooling requirements and installation circumstances.
+
+The installer needs sufficient information to assess the opportunity, decide whether to pursue it and determine what further work is required before confirming a technical solution and final price.
+
+This creates a gap between the homeowner's initial requirement and the information an installer needs to evaluate the job.
+
+**Core marketplace problem:** How can a homeowner's relatively simple air-conditioning requirement be translated into a structured installation opportunity that installers can meaningfully assess and respond to?
+
+ACPRO is being developed to address this gap through a marketplace and workflow platform. Whether this approach creates sufficient value for both homeowners and installers must be validated before the product is expanded.
 
 ---
 
