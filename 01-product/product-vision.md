@@ -99,21 +99,35 @@ ACPRO is being developed to address this gap through a marketplace and workflow 
 
 # 4. Core Product Insight
 
-The central product hypothesis is:
+ACPRO is built around two connected ideas.
 
-> **If ACPRO converts a homeowner's AC requirement into a structured installation job containing useful property, room and estimated-load information, qualified installers may be willing to compete for that job.**
+**1. Structured information makes installation opportunities easier to assess.**
 
-This creates a different proposition from traditional lead generation.
+A homeowner's initial requirement is often simple: they want air-conditioning in one or more rooms. Installers need more information about the property, rooms and installation requirements to assess the job and determine what further investigation is needed.
 
-### Traditional lead model
+ACPRO aims to bridge this gap by collecting structured information and providing estimated cooling loads, giving installers a more useful starting point than an unstructured customer enquiry.
 
-**Customer enquiry → Lead sold → Installer qualifies → Installer quotes**
+**2. A marketplace allows installers to compete for those opportunities.**
 
-### ACPRO model
+Rather than relying solely on individual enquiries and separate quoting processes, homeowners can receive and compare offers from installers interested in their job.
 
-**Customer requirement → Structured AC job → Qualified installers bid → Homeowner compares → Installer selected → Survey → Final quote → Installation**
+The homeowner can consider price, proposed solution, availability, reputation and other relevant factors when deciding which installer to proceed with.
 
-The distinction is fundamental to the product.
+**The central product hypothesis is that combining structured installation information with marketplace competition can create a better experience for homeowners and a more useful source of work for installers.**
+
+This hypothesis must be validated through homeowner and installer research and, ultimately, through marketplace performance.
+
+The intended distinction from a traditional lead-generation model is:
+
+**Traditional lead generation**
+
+Customer enquiry → Lead supplied → Installer qualifies the opportunity → Installer quotes
+
+**ACPRO's proposed model**
+
+Structured customer requirement → Installation opportunity → Installers assess and compete → Homeowner compares offers
+
+The exact bidding, selection and transaction workflows will be defined in the relevant product specifications.
 
 ---
 
