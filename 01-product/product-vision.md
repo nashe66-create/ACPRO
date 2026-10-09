@@ -269,128 +269,87 @@ The initial MVP should remain focused on validating the marketplace and tracking
 
 # 8. Product Evolution
 
-ACPRO should evolve in controlled stages.
+ACPRO will evolve in stages, beginning with a residential AC marketplace and progressively adding capabilities that support more of the installation process.
 
-## V1 — Assess
+Each stage should build on the previous stage and be informed by evidence from customer research, installer feedback and marketplace performance.
 
-**Property + rooms + requirements**
+## 8.1 Stage 1 — Assess and Establish a Preliminary Configuration
 
-↓
+**Purpose:** Turn a homeowner's requirements into a structured installation opportunity with an initial assessment of potential system configurations.
 
-**Estimated cooling loads**
+The platform collects information about the property, rooms and the homeowner's cooling requirements.
 
-The purpose is to create a better-quality installation opportunity than a generic lead.
+It estimates cooling loads for the relevant rooms and uses the information available to identify potential system configurations, such as single-split or multi-split arrangements, where the available information supports a useful preliminary suggestion.
 
----
+These outputs help homeowners understand their options and give installers a more informative starting point when assessing an opportunity.
 
-## V2 — Recommend
+The suggested configuration is preliminary. It is not a technically validated design, and the installer remains responsible for assessing the property and confirming the appropriate solution.
 
-**Load estimates + property constraints**
+## 8.2 Stage 2 — Advanced Configuration Recommendations
 
-↓
+**Purpose:** Develop more sophisticated recommendations that compare potential system configurations against technical requirements, equipment data and installation constraints.
 
-**Suggested system architecture**
+This stage could introduce more detailed configuration logic, manufacturer and equipment compatibility data, and comparisons between suitable alternatives.
 
-Possible outputs may include:
+The aim is to improve the quality and usefulness of recommendations beyond the preliminary configuration logic introduced in Stage 1.
 
-- single split;
-- multi-split;
-- twin;
-- mixed configuration.
+The scope of these capabilities will be determined by validated needs, available technical data and the results of the initial marketplace.
 
-The installer must be able to accept, edit or replace the recommendation.
+## 8.3 Stage 3 — Select Equipment
 
----
+**Purpose:** Connect a proposed system configuration with suitable equipment options.
 
-## V3 — Select
+ACPRO could eventually use manufacturer and product information to help identify equipment that meets the relevant technical requirements.
 
-**Configuration**
+The availability and quality of product data, as well as manufacturer compatibility requirements, will influence the feasibility of this stage.
 
-↓
+## 8.4 Stage 4 — Technical Validation
 
-**Equipment options**
+**Purpose:** Support more detailed checks of a proposed system.
 
-The platform can eventually use manufacturer and product data to recommend suitable equipment.
+Future capabilities could help assess matters such as indoor and outdoor unit compatibility, connected capacity, pipe runs, elevation limits, electrical requirements, drainage and other manufacturer-specific constraints.
 
----
+These checks would need appropriate technical data and validation. They would not remove the installer's responsibility for confirming the final design.
 
-## V4 — Validate
+## 8.5 Stage 5 — Materials and Costing
 
-**Equipment + installation geometry**
+**Purpose:** Translate a technically validated system into equipment, materials and estimated costs.
 
-↓
+ACPRO could eventually generate a bill of materials and support installers in estimating the equipment and materials required for a job.
 
-**Technically validated system**
+The accuracy of these outputs would depend on the completeness of the technical design, installation information and product data.
 
-Potential checks include:
+## 8.6 Stage 6 — Procurement
 
-- indoor/outdoor compatibility;
-- connected capacity;
-- pipe runs;
-- elevation;
-- branch requirements;
-- electrical requirements;
-- drainage;
-- access;
-- manufacturer constraints.
+**Purpose:** Help installers obtain the equipment and materials required for an installation.
 
----
+The initial approach to procurement may rely on manual processes. Future development could introduce structured merchant requests, pricing and availability information, order creation and integrations with merchant systems.
 
-## V5 — Generate
+Live merchant integrations are not a prerequisite for validating the initial marketplace.
 
-**Validated system**
+## 8.7 Stage 7 — Transactions and Commercial Services
 
-↓
+**Purpose:** Facilitate more of the commercial relationship between homeowners and installers.
 
-**BOM + installer cost**
+Future capabilities could include contracts, customer payments, finance through appropriate partners and more integrated scheduling.
 
-The platform can eventually generate equipment and material requirements.
+These capabilities would require separate commercial, operational and regulatory assessment. They are not commitments for the initial MVP.
 
----
+## 8.8 Stage 8 — Ongoing Service
 
-## V6 — Procure
+**Purpose:** Extend ACPRO's usefulness beyond the initial installation.
 
-**BOM**
+Potential capabilities include warranty records, maintenance and servicing workflows, repeat work and tools that help installers manage their operations.
 
-↓
+These capabilities would be considered once there is sufficient evidence that the earlier stages create value.
 
-**Merchant pricing / availability / ordering**
+## 8.9 Evolution Principle
 
-Initial merchant strategy is intentionally manual.
+The stages above describe ACPRO's potential direction, not a fixed delivery schedule.
 
-Future integrations may include:
+Each stage should be assessed against validated customer needs, installer demand, commercial value, technical feasibility and the evidence generated by the existing product.
 
-- merchant email workflows;
-- stock and pricing;
-- order creation;
-- procurement tracking.
-
----
-
-## V7 — Transact
-
-**Customer + installer**
-
-↓
-
-**Payments / finance / contracts / scheduling**
-
-These capabilities require appropriate commercial, regulatory and partner arrangements.
-
-They are not part of the initial MVP.
-
----
-
-## V8 — Operate
-
-**Completed installation**
-
-↓
-
-**Warranty / servicing / repeat work / installer tools**
-
-The long-term opportunity is to remain useful after the initial installation.
-
+**ACPRO should earn the right to expand by proving that the current stage works.**
 ---
 
 # 9. MVP Definition
