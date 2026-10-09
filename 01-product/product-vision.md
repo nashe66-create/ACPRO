@@ -133,46 +133,42 @@ The exact bidding, selection and transaction workflows will be defined in the re
 
 # 5. Customer Value Proposition
 
-## 5.1 Homeowner proposition
+## 5.1 Homeowner Proposition
 
-The intended proposition is:
-
-> **Don't get one AC quote. Get the market price.**
+ACPRO aims to make buying residential air conditioning easier by helping homeowners understand their requirements, compare suitable installation offers and choose an installer with confidence.
 
 The homeowner should be able to:
 
-- describe what they want without needing technical knowledge;
-- provide structured information about their property;
-- receive suitable installer offers;
-- compare installers on more than price;
-- understand what each offer includes;
-- select the installer they trust;
-- proceed through survey, final pricing and installation.
+- Describe what they want to achieve without needing technical knowledge.
+- Provide structured information about their property and rooms.
+- Receive offers from installers interested in their job.
+- Compare offers based on price, proposed solution, availability, reputation and other relevant factors.
+- Understand what each offer includes and how the options differ.
+- Choose an installer based on their own priorities, rather than price alone.
 
-The product should make comparison easier without turning the experience into a technical procurement exercise.
+The intended value is twofold: **make it easier to understand the available options and make it easier to compare competitive offers.**
 
----
+ACPRO should simplify the buying process without requiring homeowners to become technical experts.
 
-## 5.2 Installer proposition
+## 5.2 Installer Proposition
 
-The intended proposition is:
+ACPRO aims to help residential AC installers access suitable installation opportunities and assess those opportunities more efficiently.
 
-> **Don't buy AC leads. Bid on real AC installation jobs.**
+The installer should receive structured information about the homeowner's requirements, property and rooms, including estimated cooling loads where available.
 
-The installer should receive a job with useful information already collected.
+The intended benefits are to:
 
-Over time, the platform should reduce wasted effort associated with:
+- Access residential AC jobs through the marketplace.
+- Spend less time collecting basic customer and property information.
+- Assess whether an opportunity is suitable before committing significant quoting effort.
+- Start with better information when preparing an offer.
+- Reduce avoidable qualification and quoting effort over time.
 
-- poor-quality enquiries;
-- incomplete customer information;
-- unsuitable jobs;
-- repetitive qualification;
-- quoting preparation;
-- technical assessment;
-- material planning;
-- procurement administration.
+The installer remains responsible for verifying the property, determining the final technical solution and confirming the final price.
 
-The installer remains responsible for the final technical design and installation decision during MVP.
+The intended value is twofold: **access to relevant residential work and better-structured opportunities that are easier to assess.**
+
+These benefits are hypotheses to validate through homeowner and installer research and the marketplace pilot.
 
 ---
 
