@@ -600,7 +600,7 @@ Potential future revenue streams include:
 
 The exact pricing model is **not yet a validated fact**.
 
-Commercial assumptions must be validated during Gate 1.
+Commercial assumptions remain unvalidated and must be tested during the constrained pilot before substantial scale-up or major investment.
 
 ---
 
