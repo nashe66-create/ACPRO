@@ -142,9 +142,13 @@ Determine:
 
 ### Gate 1 decision
 
-**PASS** → proceed to detailed product specification.
+**Current status: CLOSED BY FOUNDER DECISION — PROCEED WITH ACCEPTED RISK.**
 
-**FAIL / PIVOT** → revise the concept before building.
+The founder has approved proceeding with the residential AC marketplace direction into Stage 03 — Product Specification. This is a strategic go-forward decision, not a claim that the market has been empirically validated. Homeowner conversion, installer willingness to bid, achievable liquidity and unit economics remain unvalidated and must be measured in a constrained pilot before substantial scale-up or major investment.
+
+**Continue:** proceed to detailed product specification while preserving these assumptions and risks in the Assumptions Register and Risk Register.
+
+**Reassess:** use pilot evidence to continue, revise or pivot the model.
 
 ---
 
