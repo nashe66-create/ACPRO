@@ -3,8 +3,8 @@
 **Product:** ACPRO  
 **Document:** PRD-001 — Product Vision  
 **Version:** 1.0  
-**Status:** Draft for review  
-**Gate:** Gate 0 — Product Definition
+**Status:** Approved  
+**Gate:** Gate 0 — Product Definition (Passed by founder decision)
 
 ---
 
@@ -1052,8 +1052,8 @@ These questions belong in the relevant validation, product specification or tech
 
 # Document Status
 
-**Status:** Draft for review
+**Status:** Approved by founder decision
 
-**Next document:** PRD-002 — Homeowner Journey
+**Gate 0:** Passed
 
-**Gate:** Gate 0 — Product Definition
+**Next stage:** Stage 03 — Product Specification
