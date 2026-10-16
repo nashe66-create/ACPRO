@@ -3,7 +3,7 @@
 **Product:** ACPRO  
 **Document:** PRD-004 — Admin / Operations Journey  
 **Version:** 0.1  
-**Status:** Draft for discussion  
+**Status:** Approved content; awaiting repository review  
 **Stage:** Stage 03 — Product Specification  
 **Gate dependency:** Gate 1 — Marketplace Validation has not been passed. This draft does not change formal gate status or authorise implementation.
 
