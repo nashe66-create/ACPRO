@@ -13,4 +13,6 @@
 | DEC-009 | Installer can override platform recommendations | Accepted | Technical responsibility remains with the qualified installer |
 | DEC-010 | Documentation precedes detailed UI/database/API design | Accepted | Prevent premature implementation decisions |
 
+| DEC-011 | Proceed with ACPRO's residential AC marketplace direction and close Gates 0 and 1 by founder decision | Accepted — proceed with risk | Current desk research and product definition justify proceeding to Stage 03, while demand, installer participation, liquidity and unit economics remain unvalidated and must be measured during a constrained pilot |
+
 New decisions require a unique DEC ID.

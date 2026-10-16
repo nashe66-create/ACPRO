@@ -1,24 +1,34 @@
 # Gate Status
 
-## Current Gate
+## Gate 0 — Product Definition
 
-**Gate 0 — Product Definition**
+**Status: PASSED — founder-approved**
 
-Status: **In progress**
+PRD-001 establishes ACPRO's product direction, target users, value propositions, marketplace hypothesis, MVP philosophy, exclusions and product principles. Product assumptions remain assumptions; passing Gate 0 means the product definition is sufficiently clear to proceed, not that the business model is proven.
 
-## Current deliverable
+## Gate 1 — Marketplace Validation
 
-**PRD-001 — Product Vision**
+**Status: CLOSED BY FOUNDER DECISION — PROCEED WITH ACCEPTED RISK**
 
-## Next gate
+The founder has chosen to proceed with ACPRO's residential AC marketplace direction and move into detailed product specification. This is a strategic go-forward decision based on the current desk research and product rationale, with unresolved validation risks explicitly accepted for the next stage.
 
-**Gate 1 — Marketplace Validation**
+**Important distinction:** Gate 1 is not marked as empirically validated. Online research has not established actual homeowner conversion, installer willingness to bid, achievable local marketplace liquidity or proven unit economics. These remain unvalidated assumptions and must be measured during a controlled pilot before substantial scale-up or major investment.
 
-Gate 1 must establish whether:
-- homeowners want the proposition;
-- qualified installers will participate and bid;
-- sufficient marketplace liquidity is achievable;
-- the economics can support the model.
+## Current stage
+
+**Stage 03 — Product Specification**
+
+**Next gate:** Gate 2 — Product Specification
+
+The next work is to complete the product/domain/state/technical-boundary specifications needed to describe the MVP coherently. This does not authorise premature detailed implementation or override unresolved product decisions.
+
+## Conditions carried forward
+
+- Keep ASSUMP-001 through ASSUMP-008 and other relevant assumptions visibly unvalidated until evidence supports changing their status.
+- Keep RISK-001 through RISK-004 open; insufficient demand, installer participation, liquidity and economics remain high-impact risks.
+- Use a constrained pilot to measure demand, bids per job, time to first bid, conversion, cancellations, operational cost and contribution per completed job.
+- Review the MVP scope conflict concerning preliminary configuration suggestions and indoor-unit visualisation/AR before implementation; do not silently resolve it.
+- Do not claim the market is proven or that Gate 1 evidence criteria have been empirically satisfied.
 
 ## Completed project-control setup
 
@@ -28,12 +38,6 @@ Gate 1 must establish whether:
 - Product Backlog
 - Risk Register
 - Gate Status
-
-## Gate completion rule
-
-A gate is not complete because its documents exist.
-
-It is complete when its central question has been answered sufficiently to justify moving to the next gate.
 
 ## Change control
 
@@ -48,10 +52,4 @@ Material changes to an accepted decision must:
 
 ## Current operating rule
 
-Do not jump ahead because a future feature is interesting.
-
-If a new idea appears:
-- capture it in the backlog;
-- classify it NOW / NEXT / LATER / REJECTED;
-- update the Decision Log if it changes an accepted decision;
-- continue the current deliverable unless the roadmap is formally changed.
+Ideas are captured in the backlog and classified NOW / NEXT / LATER / REJECTED. They do not derail the current deliverable unless a formal decision changes the roadmap.

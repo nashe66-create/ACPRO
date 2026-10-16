@@ -3,8 +3,8 @@
 **Product:** ACPRO  
 **Document:** PRD-001 — Product Vision  
 **Version:** 1.0  
-**Status:** Draft for review  
-**Gate:** Gate 0 — Product Definition
+**Status:** Approved  
+**Gate:** Gate 0 — Product Definition (Passed by founder decision)
 
 ---
 
@@ -600,7 +600,7 @@ Potential future revenue streams include:
 
 The exact pricing model is **not yet a validated fact**.
 
-Commercial assumptions must be validated during Gate 1.
+Commercial assumptions remain unvalidated and must be tested during the constrained pilot before substantial scale-up or major investment.
 
 ---
 
@@ -1052,8 +1052,8 @@ These questions belong in the relevant validation, product specification or tech
 
 # Document Status
 
-**Status:** Draft for review
+**Status:** Approved by founder decision
 
-**Next document:** PRD-002 — Homeowner Journey
+**Gate 0:** Passed
 
-**Gate:** Gate 0 — Product Definition
+**Next stage:** Stage 03 — Product Specification
