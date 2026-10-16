@@ -354,54 +354,92 @@ Each stage should be assessed against validated customer needs, installer demand
 
 # 9. MVP Definition
 
-The MVP exists to validate the marketplace, not to build the complete AC operating system.
+The MVP exists to validate ACPRO's residential AC marketplace and establish whether structured installation opportunities can generate competitive offers and progress to completed installations.
 
-## MVP must allow
+The homeowner experience should be visual, intuitive and fast. The initial installation request should target completion in **less than 90 seconds**, using guided questions, visual choices and simple explanations rather than requiring technical AC knowledge.
 
-### Homeowner
+The MVP should support the journey from homeowner request through installer selection and onward to a recorded installation outcome, without attempting to automate the entire installation process.
 
-- create an AC installation request;
-- provide property information;
-- provide room information;
-- provide dimensions;
-- provide relevant photos;
-- describe requirements;
-- provide timing/budget information;
-- indicate finance interest;
-- receive an estimated cooling assessment;
-- submit the job;
-- receive installer offers;
-- compare offers;
-- select an installer;
-- proceed to survey;
-- receive a final price;
-- proceed to installation;
-- confirm completion;
-- leave a review.
+## 9.1 Homeowner Capabilities
 
-### Installer
+The MVP must allow homeowners to:
 
-- create a profile;
-- receive suitable job opportunities;
-- review structured job information;
-- review estimated loads;
-- submit a bid/offer;
-- communicate through the defined workflow;
-- conduct a technical survey after selection;
-- provide the final price;
-- schedule and complete installation;
-- complete required completion information.
+- Complete the initial installation request in less than 90 seconds.
+- Follow a visually guided process with clear explanations and minimal technical terminology.
+- Provide essential property, room and installation requirement information.
+- Describe their requirements and intended outcomes.
+- Explore visual examples of indoor-unit styles and select their preferred appearance.
+- Use augmented reality (AR), where supported, to visualise how an indoor unit could look in their room.
+- Provide relevant property or room photos and additional information where needed.
+- Receive estimated cooling loads for the relevant rooms.
+- Receive preliminary system configuration suggestions where the available information supports them.
+- Indicate potential interest in finance without starting a finance application.
+- Submit an installation request to the marketplace.
+- Receive and compare installer offers.
+- Select an installer.
+- Review a revised price following a survey and accept or reject it.
+- Confirm the final scope and price before the job progresses to installation planning.
+- Follow installation progress through ACPRO.
+- Confirm or provide feedback on the recorded installation outcome and leave a review.
 
-### ACPRO operations
+The initial request should prioritise speed and simplicity. Detailed information required for technical assessment can be collected later where necessary, rather than making the homeowner complete a lengthy technical questionnaire upfront.
 
-- manage homeowners and installers;
-- monitor jobs;
-- manage exceptions;
-- support the marketplace;
-- intervene when required;
-- monitor marketplace metrics.
+Indoor-unit preferences and visualisations communicate the homeowner's preferences. They do not determine the final technical solution, which remains subject to installer assessment.
 
----
+## 9.2 Installer Capabilities
+
+The MVP must allow installers to:
+
+- Register and establish an installer profile.
+- Complete ACPRO's installer onboarding and verification requirements before accepting installation work.
+- Receive and review suitable installation opportunities.
+- Review structured property and room information, estimated cooling loads and preliminary configuration suggestions where available.
+- Review the homeowner's preferred indoor-unit styles and relevant visualisation information.
+- Submit offers in response to installation opportunities.
+- Revise or withdraw their own offers within the defined bidding rules.
+- Acknowledge a homeowner's selection and confirm their intention to proceed.
+- Conduct a technical survey and confirm the final technical solution.
+- Submit a revised price where a genuine unforeseen issue or change in scope justifies it, with an explanation.
+- Confirm the final scope and price with the homeowner before the job progresses to installation planning.
+- Record relevant scheduling and installation progress.
+- Record installation completion and the required completion information.
+
+Installers remain responsible for verifying the property, confirming the final design and price, and carrying out the installation appropriately.
+
+## 9.3 ACPRO Operations Capabilities
+
+The MVP must allow ACPRO operations to:
+
+- Manage homeowner and installer accounts.
+- Review and manage installer onboarding status.
+- Monitor installation requests, offers and job progress.
+- Manage bidding rounds and homeowner decision periods.
+- Record homeowner decisions and recovery choices.
+- Update or record job statuses where manual intervention is required.
+- Check with homeowners to establish whether installations are complete or still in progress.
+- Manage exceptions and provide customer or installer support.
+- Intervene in marketplace workflows where necessary.
+- Monitor core marketplace, bidding and installation outcome metrics.
+
+The initial MVP may rely on manual operational processes where automation is not necessary to validate the marketplace.
+
+## 9.4 Marketplace and Recovery Capabilities
+
+The MVP must support a defined bidding window, offer comparison, homeowner selection and recovery when a job does not progress.
+
+The marketplace should allow homeowners to decline all offers without being forced to select an installer. Where no offers are received, or an installation cannot proceed, ACPRO should provide recovery options and allow the homeowner to choose the next step.
+
+The MVP must support reopening bidding while preserving the original job and its history. The homeowner should remain in control of whether to reopen a job, revise the requirements, pause or stop the request.
+
+Detailed bidding windows, offer rules, decision periods, withdrawal handling and recovery workflows are defined in PRD-005 — Bid & Quote Journey.
+
+## 9.5 MVP Delivery Principle
+
+The MVP must support a fast, visually guided homeowner request, useful preliminary assessment, installer offers and selection, and tracking through to a recorded installation outcome.
+
+It does not need to automate every step of the installation journey. The initial priority is to establish a functioning marketplace, provide useful structured information, support installer competition and measure whether opportunities progress to completed installations.
+
+The less-than-90-second request target and proposed visualisation experience should be tested with homeowners to establish whether they can complete the process quickly while providing sufficient information for installers to assess the opportunity.
 
 # 10. Explicit MVP Exclusions
 
