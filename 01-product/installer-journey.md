@@ -5,7 +5,7 @@
 **Version:** 0.1  
 **Status:** Draft for discussion  
 **Stage:** Stage 03 — Product Specification  
-**Gate dependency:** Gate 1 — Marketplace Validation has not been passed. This draft does not change gate status or authorise implementation.
+**Gate status:** Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This draft does not change gate status or authorise implementation.
 
 ---
 
@@ -430,3 +430,14 @@ This is a draft for discussion, developed with reference to the current product 
 This document does not pass Gate 1, settle unresolved PRD-005 questions, approve onboarding/legal policies or authorise implementation.
 
 **Review sequence:** Propose → Discuss → Revise → Approve → Commit.
+
+
+## Stage 03 reconciliation amendment — authoritative installer rules
+
+- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
+- Installer receives structured homeowner/property/room information and preliminary cooling-load estimates only. Installer owns site verification, final technical design, equipment selection, final scope/price and installation; MVP does not include AR or automated configuration output.
+- Retained timing proposals: 48-hour bidding; homeowner selection within 3 calendar days plus one 3-day extension; installer acknowledgement within 24 hours with reminder after 12 hours. These are proposals, not contractual/legal SLAs.
+- Final-quote non-response proposal: reminder at 48 hours, final reminder at 5 calendar days, Operations follow-up at 7 calendar days. Silence is not acceptance.
+- Accepted operational target: acknowledge a reported issue within 2 working days. This is not a contractual SLA and is subject to external/legal review where relevant.
+- Mutual confirmation of the same final quote and scope/version is required before installation planning. Thereafter homeowner and installer coordinate scheduling/delivery directly; ACPRO records milestones and handles exceptions.
+- Survey-fee treatment remains provisional pending commercial approval and external/legal review.
