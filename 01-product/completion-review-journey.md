@@ -219,7 +219,7 @@ Whole-document approval accepts the document as the current product specificatio
 
 ## 13. Review status
 
-Product owner has approved this document as a whole for repository review. Decisions retain the approval labels and qualifiers stated in Section 11; remaining questions and provisional defaults are intentionally left open. This document does not pass Gate 1, change formal gate status, or by itself authorise implementation.
+Product owner has approved this document as a whole for repository review. Decisions retain the approval labels and qualifiers stated in Section 11; remaining questions and provisional defaults are intentionally left open. This document does not alter the founder decision to close Gate 1 or by itself authorise implementation.
 
 **Workflow:** Propose → Discuss → Revise → Approve → Commit. After explicit approval, commit to a dedicated review branch and open a draft pull request. Do not merge into `main` without explicit permission.
 
