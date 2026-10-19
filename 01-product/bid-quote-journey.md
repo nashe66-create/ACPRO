@@ -274,3 +274,13 @@ These questions should be resolved in the appropriate product, operational or le
 
 **Document status:** Approved content; awaiting repository review.  
 **Note:** Items explicitly identified as open questions remain unresolved.
+
+
+## Stage 03 reconciliation amendment — authoritative for this review
+
+- The 48-hour bidding window, 3-calendar-day homeowner decision period with one 3-day extension, and 24-hour selected-installer acknowledgement deadline with a 12-hour reminder remain **proposals** for reconciliation and pilot review, not contractual/legal service levels. Bidding starts on distribution; selection ends the round.
+- Final-quote non-response proposal: reminder after 48 hours, final reminder after 5 calendar days, Operations follow-up after 7 calendar days. This is separate from offer selection.
+- Survey fees are **provisional** pending explicit commercial approval and external/legal review. Proposed default: no separate ACPRO survey fee; any installer survey-cost arrangement must be disclosed and agreed in advance. Installer absorption of the cost if the homeowner does not proceed is not final policy.
+- No automatic installer selection, rebid or distribution expansion. Obtain homeowner direction before expanding distribution. Silence is not acceptance.
+- Installation planning requires both parties to confirm the same final quote and scope/version.
+- Gate 1 is closed by founder decision with risk accepted; commercial validation remains unproven.
