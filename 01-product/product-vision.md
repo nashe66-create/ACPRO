@@ -251,7 +251,7 @@ The long-term ambition is to build tools and infrastructure that support more of
 
 Potential future capabilities include:
 
-- Technical assessment and design support.
+- Technical assessment and design support, including advanced configuration recommendations, are potential future capabilities.
 - System configuration and equipment selection.
 - Bill of materials generation.
 - Costing and procurement support.
@@ -281,7 +281,7 @@ The platform collects information about the property, rooms and the homeowner's 
 
 It estimates cooling loads for the relevant rooms. The MVP does not generate system-configuration recommendations; technical design and equipment selection remain installer responsibilities.
 
-These outputs help homeowners understand their options and give installers a more informative starting point when assessing an opportunity.
+The estimate gives installers a more informative starting point when assessing an opportunity. It does not recommend a system configuration or establish the final design.
 
 The cooling-load estimate is preliminary, not a technically validated design. The installer remains responsible for assessing the property and confirming the appropriate solution.
 
@@ -356,7 +356,7 @@ Each stage should be assessed against validated customer needs, installer demand
 
 The MVP exists to validate ACPRO's residential AC marketplace and establish whether structured installation opportunities can generate competitive offers and progress to completed installations.
 
-The homeowner experience should be visual, intuitive and fast. The initial installation request should target completion in **less than 90 seconds**, using guided questions, visual choices and simple explanations rather than requiring technical AC knowledge.
+The homeowner experience should be intuitive and fast, using guided questions and simple explanations rather than requiring technical AC knowledge. A request-completion target of **under 90 seconds is a hypothesis to test**, not a validated requirement.
 
 The MVP should support the journey from homeowner request through installer selection and onward to a recorded installation outcome, without attempting to automate the entire installation process.
 
@@ -368,7 +368,7 @@ The MVP must allow homeowners to:
 - Follow a visually guided process with clear explanations and minimal technical terminology.
 - Provide essential property, room and installation requirement information.
 - Describe their requirements and intended outcomes.
-- Explore visual examples of indoor-unit styles and select their preferred appearance.
+- Provide text-based preferences and relevant photos where useful. Indoor-unit visualisation and AR are outside MVP.
 - Provide structured room information and relevant photos; AR/indoor-unit visualisation is deferred beyond MVP.
 - Provide relevant property or room photos and additional information where needed.
 - Receive estimated cooling loads for the relevant rooms.
@@ -384,7 +384,7 @@ The MVP must allow homeowners to:
 
 The initial request should prioritise speed and simplicity. Detailed information required for technical assessment can be collected later where necessary, rather than making the homeowner complete a lengthy technical questionnaire upfront.
 
-Indoor-unit preferences and visualisations communicate the homeowner's preferences. They do not determine the final technical solution, which remains subject to installer assessment.
+Homeowner preferences and photos provide context only. They do not determine the final technical solution, which remains subject to installer assessment.
 
 ## 9.2 Installer Capabilities
 
@@ -1095,12 +1095,3 @@ These questions belong in the relevant validation, product specification or tech
 **Next document:** PRD-002 — Homeowner Journey
 
 **Gate:** Gate 0 — Product Definition
-
-
-## Stage 03 reconciliation amendment — authoritative MVP boundary
-
-This section supersedes conflicting MVP capability wording earlier in this draft. The MVP includes structured homeowner/property/room information, dimensions and relevant photos, requirements capture, preliminary cooling-load estimates, installer matching/distribution under separately approved rules, offers, homeowner comparison and selection, survey/final quote, explicit mutual confirmation of the same final quote and scope/version, and outcome tracking through completion and aftercare. Manual Operations is acceptable for pilot validation.
-
-**Not in MVP:** preliminary system-configuration recommendations, automated equipment/manufacturer selection or compatibility checks, indoor-unit visualisation, AR, automatic pipe/cable sizing or routing, full automated BOM, merchant APIs/live stock/pricing, integrated finance applications/credit decisions, customer payment processing or escrow. The under-90-second request target is a hypothesis to test, not a validated requirement.
-
-Preliminary cooling-load estimates are not a verified technical design. The installer owns site verification, final technical design, equipment selection, final scope/price and installation. Gate 1 is closed by founder decision with risk accepted; commercial validation remains unproven. The constrained pilot must measure demand, bids/job, time to first bid, conversion, cancellations, Operations cost and contribution before scale-up or major investment.
