@@ -195,16 +195,16 @@ The following decisions and proposals are recorded with their current approval s
 
 ### 11.2 Remaining open questions
 
-1. **Homeowner acknowledgement window and reminders:** How long should the homeowner have to respond to the completion notification, and what reminder schedule should apply? A proposed starting point is a reminder after 48 hours and a final reminder after 5 calendar days, followed by operations review after 7 calendar days. These timings are proposals only and should be reconciled with PRD-005 and PRD-006 before approval.
+1. **Homeowner acknowledgement window and reminders — accepted default:** reminder after 48 hours, final reminder after 5 calendar days, and Operations review after 7 calendar days without response. This is a completion-specific timer, separate from bidding and final-quote timers.
 2. **Administrative closure with an open issue:** If the installation is physically complete but an issue remains unresolved, should that issue block administrative closure of the job? Proposed default: keep the issue open and visible, and require operations review before closing the overall job; do not treat closure as resolution or satisfaction.
-3. **Issue response expectations:** Should the MVP set a target for the installer to acknowledge an issue? Proposed starting point: acknowledge within 2 working days, with operations review if no response. This is a proposal, not an agreed service level.
+3. **Issue acknowledgement — accepted operational target:** installer acknowledgement within 2 working days. This is not a contractual SLA and remains subject to external/legal review where relevant. Operations follows up if the target is missed.
 4. **Safety concerns:** What minimum signposting and manual escalation procedure should be provided for a reported urgent safety concern, without ACPRO acting as an emergency service? Proposed principle: tell users not to use the platform for emergencies and to contact appropriate emergency or qualified professional services directly; route the report to operations for follow-up, without delaying the user's immediate action.
 5. **Review timing:** Should the review invitation be sent immediately after homeowner acknowledgement, after a short delay, or after an issue is resolved where one is open? Proposed default: invite after acknowledgement or after operations has reviewed a no-response case; if an issue is open, allow a review of the experience without requiring issue closure, while clearly keeping issue handling separate.
 6. **Installer review responses:** Should installers be allowed a public response to a published review, and should the response be moderated? Proposed default: one factual response, subject to the same published rules and moderation; no public disclosure of private customer/job information.
 7. **Disputes and reopening:** Who can reopen a completed job or issue, and for how long? Proposed default: homeowners can report a later issue through an accessible support route; operations can reopen the platform record when appropriate. Any time limit should not be presented as limiting statutory rights or warranty rights and needs legal review.
 8. **Data retention:** What retention schedule applies to completion evidence, issue reports and reviews? This requires a separate privacy/legal decision; no fixed period is proposed here.
 
-Whole-document approval accepts the document as the current product specification while preserving the distinctions above: the seven decisions are recorded as approved/proposed at their stated status, the open-issue closure rule is explicitly approved, and the remaining questions and provisional defaults remain open for later resolution. Timing proposals must be reconciled with PRD-005 and PRD-006 before they are adopted as operational rules.
+Whole-document approval accepts this as the current product specification while preserving the distinctions above. Completion-response timing and the issue acknowledgement target are accepted operational defaults/targets. Other policy questions remain open. Expiry triggers reminders or follow-up only; it never creates implicit acceptance, satisfaction, issue resolution or closure.
 
 ## 12. Dependencies and related documents
 
@@ -219,16 +219,6 @@ Whole-document approval accepts the document as the current product specificatio
 
 ## 13. Review status
 
-Product owner has approved this document as a whole for repository review. Decisions retain the approval labels and qualifiers stated in Section 11; remaining questions and provisional defaults are intentionally left open. This document does not alter the founder decision to close Gate 1 or by itself authorise implementation.
+Product owner has approved this document as a whole for repository review. Completion-response timing and the issue acknowledgement target are accepted operational defaults/targets as stated in Section 11. Other policy questions remain open. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This document does not authorise implementation.
 
 **Workflow:** Propose → Discuss → Revise → Approve → Commit. After explicit approval, commit to a dedicated review branch and open a draft pull request. Do not merge into `main` without explicit permission.
-
-
-## Stage 03 reconciliation amendment — authoritative completion and review rules
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
-- **Accepted completion-response default:** reminder after 48 hours, final reminder after 5 calendar days, Operations review after 7 calendar days without homeowner response. Replace any wording that says this schedule remains open.
-- **Accepted issue acknowledgement target:** installer acknowledgement within 2 working days. This is an operational target, not a contractual SLA, and is subject to external/legal review where relevant; Operations follows up if missed.
-- Physical installation completion, homeowner acknowledgement, issue status, review status and administrative closure are separate. Installation may be marked complete while an issue remains open; Operations reviews before administrative closure if unresolved. Closure is not resolution or satisfaction.
-- A structured completion checklist is required for every job; photos/documents are collected when relevant. Silence is not satisfaction or acceptance.
-- Review moderation, response, retention and reopening limits remain subject to separate policy approval. Ratings do not determine installer ranking during MVP.
