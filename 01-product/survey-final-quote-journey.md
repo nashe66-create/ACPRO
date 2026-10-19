@@ -5,7 +5,7 @@
 **Version:** 0.2  
 **Status:** Content approved; awaiting repository review  
 **Stage:** Stage 03 — Product Specification  
-**Gate dependency:** Gate 1 — Marketplace Validation has not been passed. This document does not change formal gate status or authorise implementation.
+**Gate status:** Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This document does not change formal gate status or authorise implementation.
 
 ---
 
@@ -69,7 +69,7 @@ Record whether a survey is required, not required or awaiting clarification. The
 
 Where required, the installer explains what the survey is expected to confirm, that the initial offer may change if actual conditions or requirements differ, and that the survey does not itself commit the homeowner to the final quote.
 
-Any different fee or commercial condition must be disclosed and agreed in advance. The default MVP policy is no separate survey fee to the homeowner; the installer bears the survey cost unless a different arrangement is explicitly disclosed and agreed beforehand. ACPRO does not automatically charge the homeowner or collect survey-cost recovery. This policy requires legal/commercial review before it is made binding.
+Any different fee or commercial condition must be disclosed and agreed in advance. Proposed default pending commercial approval and external/legal review: ACPRO does not charge a separate survey fee in the MVP. Any installer survey-cost arrangement must be disclosed and agreed in advance. Whether the installer absorbs the cost if the homeowner does not proceed is not final policy. ACPRO does not automatically charge the homeowner or collect survey-cost recovery.
 
 ### Step 3 — Arrange and confirm the appointment
 
@@ -150,7 +150,7 @@ Make the agreed quote version, scope, relevant survey summary, outstanding depen
 
 The product owner has approved these working defaults:
 
-1. **Survey fees:** no separate homeowner survey fee by default; installer bears the cost unless a different arrangement is explicitly disclosed and agreed in advance. No automatic ACPRO charge or recovery.
+1. **Survey fees — provisional:** no separate ACPRO survey fee by default. Installer survey-cost treatment, including who bears the cost if the homeowner does not proceed, requires explicit commercial approval and external/legal review.
 2. **Appointments:** record cancellations and missed appointments; allow rescheduling; no automatic ACPRO penalty or charge. Manual operations review is available.
 3. **Quote validity:** every final quote has an expiry date set by the installer; expired quotes require reconfirmation.
 4. **Non-response:** 48-hour reminder, five-day final reminder and manual follow-up after seven calendar days, subject to reconciliation with PRD-005.
@@ -228,3 +228,12 @@ The 13 product questions reviewed with the product owner are resolved for this d
 Approval is limited to product content and working defaults. It does not mean legal/privacy review is complete, that proposed reminder timings have been reconciled with PRD-005, that Gate 1 has passed, or that implementation is authorised. The product remains subject to the established staged-gate process.
 
 **Workflow:** Propose → Discuss → Revise → Approve → Commit. Repository commit is to a review branch with a draft pull request; no merge to `main` is authorised.
+
+
+## Stage 03 reconciliation amendment — authoritative survey and final-quote rules
+
+- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
+- Survey and final technical/commercial design remain installer responsibilities. Retain quote versions and scope changes; both parties must confirm the same final quote and scope/version before installation planning. Silence is not acceptance.
+- Final-quote non-response proposal: reminder after 48 hours, final reminder after 5 calendar days, Operations follow-up after 7 calendar days. This is separate from offer selection and is not a contractual/legal SLA.
+- **Survey fees remain provisional:** proposed default is no separate ACPRO survey fee in the MVP. Any installer survey-cost arrangement must be disclosed and agreed in advance. Whether the installer absorbs costs if the homeowner does not proceed requires explicit commercial approval and external/legal review before it is binding.
+- After mutual agreement, homeowner and installer coordinate scheduling directly; ACPRO records milestones and supports exceptions. No automatic scheduling or acceptance follows expiry.
