@@ -5,7 +5,7 @@
 **Version:** 0.4  
 **Status:** Product-owner approved; awaiting repository review  
 **Stage:** Stage 03 — Product Specification  
-**Gate dependency:** Gate 1 — Marketplace Validation has not been passed. This document does not change formal gate status or authorise implementation.
+**Gate status:** Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This document does not change formal gate status or authorise implementation.
 
 ---
 
@@ -222,3 +222,13 @@ Whole-document approval accepts the document as the current product specificatio
 Product owner has approved this document as a whole for repository review. Decisions retain the approval labels and qualifiers stated in Section 11; remaining questions and provisional defaults are intentionally left open. This document does not pass Gate 1, change formal gate status, or by itself authorise implementation.
 
 **Workflow:** Propose → Discuss → Revise → Approve → Commit. After explicit approval, commit to a dedicated review branch and open a draft pull request. Do not merge into `main` without explicit permission.
+
+
+## Stage 03 reconciliation amendment — authoritative completion and review rules
+
+- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
+- **Accepted completion-response default:** reminder after 48 hours, final reminder after 5 calendar days, Operations review after 7 calendar days without homeowner response. Replace any wording that says this schedule remains open.
+- **Accepted issue acknowledgement target:** installer acknowledgement within 2 working days. This is an operational target, not a contractual SLA, and is subject to external/legal review where relevant; Operations follows up if missed.
+- Physical installation completion, homeowner acknowledgement, issue status, review status and administrative closure are separate. Installation may be marked complete while an issue remains open; Operations reviews before administrative closure if unresolved. Closure is not resolution or satisfaction.
+- A structured completion checklist is required for every job; photos/documents are collected when relevant. Silence is not satisfaction or acceptance.
+- Review moderation, response, retention and reopening limits remain subject to separate policy approval. Ratings do not determine installer ranking during MVP.
