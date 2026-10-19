@@ -197,7 +197,7 @@ The 13 product questions reviewed with the product owner are resolved for this d
 | Minimum final quote information | Resolved for MVP | Confirm field design during specification |
 | Survey findings to retain | Resolved for MVP | Avoid unnecessary personal/property data |
 | Reason for survey / no survey | Resolved for MVP | Structured reason plus optional note |
-| Survey fees and appointment costs | Default agreed | Legal/commercial review before binding policy |
+| Survey fees and appointment costs | Provisional commercial proposal | Explicit approval and external/legal review before binding policy |
 | Homeowner reminders and timeout | Default agreed | Reconcile timings with PRD-005 |
 | Material changes | Resolved for MVP | Explicit reconfirmation |
 | Corrections after acceptance | Resolved for MVP | Preserve versions and audit history |
@@ -223,17 +223,8 @@ The 13 product questions reviewed with the product owner are resolved for this d
 
 ## 13. Review status
 
-**Content approved by the product owner.** This document captures the agreed MVP defaults for survey coordination, survey records, final quotes, material changes, confirmation, exceptions and pilot measures.
+**Content approved by the product owner.** This document captures the agreed MVP workflow and working defaults for survey coordination, survey records, final quotes, material changes, confirmation, exceptions and pilot measures. Survey-cost allocation remains provisional pending explicit commercial approval and external/legal review.
 
-Approval is limited to product content and working defaults. It does not mean legal/privacy review is complete, that proposed reminder timings have been reconciled with PRD-005, that Gate 1 has passed, or that implementation is authorised. The product remains subject to the established staged-gate process.
+Approval is limited to product content and working defaults. The final-quote non-response proposal is reminder after 48 hours, final reminder after 5 calendar days, and Operations follow-up after 7 calendar days. These are operational proposals, not contractual/legal SLAs. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. Legal/privacy review is not complete and implementation is not authorised.
 
 **Workflow:** Propose → Discuss → Revise → Approve → Commit. Repository commit is to a review branch with a draft pull request; no merge to `main` is authorised.
-
-
-## Stage 03 reconciliation amendment — authoritative survey and final-quote rules
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
-- Survey and final technical/commercial design remain installer responsibilities. Retain quote versions and scope changes; both parties must confirm the same final quote and scope/version before installation planning. Silence is not acceptance.
-- Final-quote non-response proposal: reminder after 48 hours, final reminder after 5 calendar days, Operations follow-up after 7 calendar days. This is separate from offer selection and is not a contractual/legal SLA.
-- **Survey fees remain provisional:** proposed default is no separate ACPRO survey fee in the MVP. Any installer survey-cost arrangement must be disclosed and agreed in advance. Whether the installer absorbs costs if the homeowner does not proceed requires explicit commercial approval and external/legal review before it is binding.
-- After mutual agreement, homeowner and installer coordinate scheduling directly; ACPRO records milestones and supports exceptions. No automatic scheduling or acceptance follows expiry.
