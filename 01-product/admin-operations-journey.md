@@ -283,7 +283,7 @@ These are decisions to make, not a claim that ACPRO already has a compliance fra
 1. What minimum completeness criteria must a homeowner request meet before distribution?
 2. Which job types, locations or circumstances should be excluded or manually reviewed?
 3. What is the installer verification and eligibility policy, including credential expiry?
-4. How are installers selected for distribution, and how are exceptions justified? TEC-002 must define and document eligibility, distribution strategy, fairness and recovery controls; the strategy and prioritisation weights remain undecided.
+4. How are installers selected for distribution, and how are exceptions justified? TEC-002 must define and document eligibility, distribution strategy, fairness and recovery controls; the strategy and prioritisation weights remain undecided. TEC-002 must define and document eligibility, distribution strategy, fairness and recovery controls; the strategy and prioritisation weights remain undecided.
 5. Which homeowner details can be shown at each stage?
 6. What is the policy for sharing clarification answers with all bidders?
 7. Which scope changes require a new job version, bidder reconfirmation or deadline change?
