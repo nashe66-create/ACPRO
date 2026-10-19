@@ -121,7 +121,7 @@ The commercial hypotheses remain unproven and should be tested during the constr
 - H4 — Structured property information and preliminary cooling estimates improve installation opportunities.
 - H5 — Homeowners can understand and trust the offers they compare.
 - H6 — Marketplace revenue can cover acquisition and operating costs.
-- H7 — Homeowners can complete the proposed fast visual request while supplying enough useful information.
+- H7 — Homeowners can complete a simple, structured request quickly while supplying enough useful information.
 
 These hypotheses and their priority, research methods and pass criteria remain subject to review.
 
