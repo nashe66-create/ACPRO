@@ -6,7 +6,7 @@
 **Stage:** Stage 03 — Product Specification  
 **Related documents:** PRD-002 Homeowner Journey; PRD-003 Installer Journey; PRD-004 Admin / Operations Journey; PRD-005 Bid & Quote Journey; PRD-006 Survey & Final Quote Journey; PRD-007 Completion & Review Journey.
 
-> This document defines only the essential ACPRO job lifecycle, transition rules, permissions and safeguards. It does not make ACPRO responsible for managing an installation. The installer and homeowner manage delivery directly once they have agreed the final quote and scope. Gate 1 status is unchanged.
+> This document defines only the essential ACPRO job lifecycle, transition rules, permissions and safeguards. It does not make ACPRO responsible for managing an installation. The installer and homeowner manage delivery directly once they have agreed the final quote and scope. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
 
 ## 1. Purpose and boundary
 
@@ -57,7 +57,7 @@ Photos or supporting documents are required where relevant, not universally.
 
 The homeowner is notified when completion is submitted and can acknowledge completion, leave a review or report a problem. Homeowner acknowledgement is separate from the installation state. The job can be recorded as `completed` without waiting for the homeowner to respond.
 
-If the homeowner does not respond, use the reminder proposals already recorded in PRD-007 (48 hours, 5 calendar days, then Operations review after 7 calendar days), subject to reconciliation with PRD-005/006. Silence is not satisfaction, acceptance of disputed work or issue resolution. If an issue remains open, Operations reviews it before administrative closure. Administrative closure is a recordkeeping outcome, not proof of satisfaction or defect-free work.
+If the homeowner does not respond, use the accepted completion-response default in PRD-007: reminder after 48 hours, final reminder after 5 calendar days, and Operations review after 7 calendar days. This is separate from PRD-005/006 bidding and final-quote timers. Silence is not satisfaction, acceptance of disputed work or issue resolution. If an issue remains open, Operations reviews it before administrative closure. Administrative closure is a recordkeeping outcome, not proof of satisfaction or defect-free work.
 
 ## 5. Permissions and Operations boundary
 
@@ -88,7 +88,7 @@ A lifecycle status records workflow information only. It does not certify techni
 
 ## 8. Timing dependencies and open policy items
 
-This PRD does not introduce new timers. Existing timing proposals in PRD-005, PRD-006 and PRD-007 must be reconciled before implementation. In particular, selection acknowledgement, homeowner completion reminders and issue-response timings must remain proposals until reviewed consistently across those documents.
+This PRD does not introduce new timers. Completion-response timing is an accepted default (48-hour reminder, 5-calendar-day final reminder, Operations review after 7 calendar days). Installer issue acknowledgement within 2 working days is an accepted operational target, not a contractual SLA and subject to external/legal review where relevant. Selection acknowledgement and final-quote response timings remain separate proposals under PRD-005/006.
 
 Exact user-facing labels, technical state identifiers, detailed permissions, privacy/retention requirements and implementation mechanics belong in later specification work. They do not block this lean lifecycle definition unless a conflict is identified during review.
 
@@ -97,3 +97,12 @@ Exact user-facing labels, technical state identifiers, detailed permissions, pri
 **Content approved by the user.** This version incorporates the decisions made during discussion and removes the detailed project-management workflow from v0.2. The document is committed to a dedicated review branch and submitted as a draft pull request. Formal gate status is unchanged.
 
 Workflow: **Propose → Discuss → Revise → Approve → Commit.** This approval authorises a commit to the dedicated review branch and a draft PR only. Do not merge into `main` without explicit permission.
+
+
+## Stage 03 reconciliation amendment — authoritative lifecycle timing
+
+- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
+- Accepted completion-response default: reminder after 48 hours, final reminder after 5 calendar days, Operations review after 7 calendar days without homeowner response.
+- Accepted issue acknowledgement target: 2 working days. This is an operational target, not a contractual SLA, and is subject to external/legal review where relevant.
+- Completion, selection acknowledgement and final-quote response timers are distinct and start from their specific trigger events. Selection acknowledgement and final-quote response timings remain proposals under PRD-005/006. Expiry triggers reminders/follow-up only, never implicit acceptance, satisfaction, cancellation, issue resolution or closure.
+- Scheduling remains blocked until both parties confirm the same final quote and scope/version. After confirmation, homeowner and installer coordinate delivery directly. Operations reviews before administrative closure if an issue remains unresolved.
