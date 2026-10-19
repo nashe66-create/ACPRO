@@ -139,9 +139,9 @@ Search-derived quote volumes are indicators of interest, not verified enquiries 
 
 Primary research and further evidence review are still required.
 
-### Formal gate-status discrepancy
+### Formal gate status
 
-Gates 0 and 1 were closed by founder decision. Gate 1 was closed with risk accepted; commercial validation remains unproven. Current work is Stage 03 Product Specification, including reconciliation of PRD-001 to PRD-008 against the approved consolidated baseline (STG03-001 / PR #11).
+Gates 0 and 1 were closed by founder decision. Gate 1 was closed with risk accepted; commercial validation remains unproven. Current work is Stage 03 Product Specification. PRD-001 to PRD-008 have been consolidated on their dedicated review branches against the approved Stage 03 baseline (STG03-001 / PR #11).
 
 Gate closure reflects a founder decision, not empirical proof of marketplace validation. The constrained pilot must test commercial assumptions before scale-up or major investment.
 
@@ -227,7 +227,7 @@ At the beginning of a future ACPRO session:
 5. Continue from the latest approved state.
 6. Keep proposed changes separate from approved decisions until explicitly agreed.
 
-**Immediate next deliverable:** Finish reconciliation of PRD-001 to PRD-008 and obtain product-owner approval; then proceed to Stage 04 — Domain Model. Do not merge draft PRs or begin implementation without relevant explicit approval.
+**Immediate next deliverable:** After explicit product-owner approval of the consolidated PRDs, proceed to Stage 04 — Domain Model. Do not merge draft PRs or begin implementation without relevant explicit approval.
 
 No product decision or repository change is authorised merely by recording it in this context document.
 
