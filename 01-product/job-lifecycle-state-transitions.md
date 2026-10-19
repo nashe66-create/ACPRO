@@ -94,15 +94,6 @@ Exact user-facing labels, technical state identifiers, detailed permissions, pri
 
 ## 9. Approval and repository status
 
-**Content approved by the user.** This version incorporates the decisions made during discussion and removes the detailed project-management workflow from v0.2. The document is committed to a dedicated review branch and submitted as a draft pull request. Formal gate status is unchanged.
+**Content approved by the user.** This version incorporates the decisions made during discussion and removes the detailed project-management workflow from v0.2. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This document is committed to a dedicated review branch and submitted as a draft pull request.
 
 Workflow: **Propose → Discuss → Revise → Approve → Commit.** This approval authorises a commit to the dedicated review branch and a draft PR only. Do not merge into `main` without explicit permission.
-
-
-## Stage 03 reconciliation amendment — authoritative lifecycle timing
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
-- Accepted completion-response default: reminder after 48 hours, final reminder after 5 calendar days, Operations review after 7 calendar days without homeowner response.
-- Accepted issue acknowledgement target: 2 working days. This is an operational target, not a contractual SLA, and is subject to external/legal review where relevant.
-- Completion, selection acknowledgement and final-quote response timers are distinct and start from their specific trigger events. Selection acknowledgement and final-quote response timings remain proposals under PRD-005/006. Expiry triggers reminders/follow-up only, never implicit acceptance, satisfaction, cancellation, issue resolution or closure.
-- Scheduling remains blocked until both parties confirm the same final quote and scope/version. After confirmation, homeowner and installer coordinate delivery directly. Operations reviews before administrative closure if an issue remains unresolved.
