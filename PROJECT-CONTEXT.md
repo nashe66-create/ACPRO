@@ -40,7 +40,7 @@ This remains a hypothesis requiring validation.
 
 ### Initial MVP direction
 
-The MVP is intended to validate whether ACPRO can turn homeowner requirements into completed installation transactions through a functioning installer marketplace.
+The MVP is intended to test whether ACPRO can turn homeowner requirements into installation opportunities that attract offers and progress to completed installations. This is a hypothesis, not a validated commercial outcome.
 
 The intended journey includes:
 - Homeowner property and room information.
@@ -103,23 +103,17 @@ The project should continue with the next unfinished deliverable rather than ski
 
 ## 6. Current Stage — Stage 03: Product Specification
 
-**Current working focus:** Establish evidence about the UK residential AC market, competitors, local installer supply and homeowner buying behaviour.
+**Current working focus:** Complete Stage 03 Product Specification reconciliation and obtain approval before proceeding to Stage 04 — Domain Model.
 
-The initial research geography proposed for discussion is Southampton and surrounding areas. Homeowner and installer research should proceed in parallel, beginning with competitor and market research.
+Gate 1 was closed by founder decision with risk accepted; this is not empirical proof of marketplace validation. The constrained pilot must measure demand, bids per job, time to first bid, conversion, cancellations, Operations cost and contribution before scale-up or major investment.
 
-These are working research choices, not final product decisions.
+### Current status
 
-### Three research outputs
-
-1. **Competitor Matrix** — compare homeowner journeys, installer business models, verification, pricing, offer comparison and post-selection workflows.
-2. **Southampton Installer Shortlist** — identify research candidates, public service areas, apparent residential focus, online enquiry channels and interview questions.
-3. **Homeowner Demand Evidence** — examine published market data, local search indicators, housing context and real buying journeys, clearly distinguishing evidence from assumptions.
-
-The research should record sources, dates checked, directly evidenced findings, unknowns and questions that interviews can resolve.
+PRD-001 to PRD-008 have been reconciled on their dedicated review branches. The PRDs remain draft pull requests; no merge to `main` is authorised. The next stage after product-owner approval is Stage 04 — Domain Model.
 
 ### Validation hypotheses
 
-The current working hypotheses are:
+The commercial hypotheses remain unproven and should be tested during the constrained pilot.
 
 - H1 — Homeowners will use ACPRO to describe requirements and obtain competing offers.
 - H2 — Installers will participate and submit offers.
