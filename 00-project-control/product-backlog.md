@@ -13,6 +13,7 @@
 - Define state machines
 - Define MVP technical boundary
 - Define Load Estimation Engine
+- Define Installer Matching & Opportunity Distribution Engine (TEC-002): eligibility rules, distribution strategy, prioritisation, fairness, no-bid recovery and operational controls
 
 ## NEXT
 - Marketplace validation
