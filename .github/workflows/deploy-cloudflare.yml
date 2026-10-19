@@ -1,16 +1,37 @@
 name: Deploy ACPRO to Cloudflare Workers
+
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - build/initial-workflow-scaffold
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'supabase/**'
+      - '.github/workflows/deploy-cloudflare.yml'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'next.config.ts'
+      - 'open-next.config.ts'
+      - 'wrangler.jsonc'
+      - 'tsconfig.json'
+      - 'eslint.config.mjs'
+
 permissions:
   contents: read
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: build/initial-workflow-scaffold
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
       - run: npm install
       - run: npm run typecheck
       - run: npm run lint
