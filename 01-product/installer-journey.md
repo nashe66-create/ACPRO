@@ -427,7 +427,7 @@ This is a draft for discussion, developed with reference to the current product 
 
 **Important:** PRD-005's 48-hour bidding window, three-day homeowner decision period, 24-hour installer acknowledgement deadline, 12-hour reminder, survey-fee treatment and recovery rules are referenced for consistency. Where PRD-005 remains a draft PR, these must not be treated as independently approved or silently changed by PRD-003.
 
-This document does not pass Gate 1, settle unresolved PRD-005 questions, approve onboarding/legal policies or authorise implementation.
+This document does not alter the founder decision to close Gate 1, settle unresolved PRD-005 questions, approve onboarding/legal policies or authorise implementation.
 
 **Review sequence:** Propose → Discuss → Revise → Approve → Commit.
 
