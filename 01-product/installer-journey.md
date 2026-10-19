@@ -425,19 +425,8 @@ These measures should be interpreted together and should not automatically becom
 
 This is a draft for discussion, developed with reference to the current product vision, PRD-002 and the PRD-005 draft in PR #1.
 
-**Important:** PRD-005's 48-hour bidding window, three-day homeowner decision period, 24-hour installer acknowledgement deadline, 12-hour reminder, survey-fee treatment and recovery rules are referenced for consistency. Where PRD-005 remains a draft PR, these must not be treated as independently approved or silently changed by PRD-003.
+**Important:** PRD-005 timing values (48-hour bidding; 3-day homeowner decision with one 3-day extension; 24-hour installer acknowledgement with a 12-hour reminder) remain operational proposals for pilot review, not contractual/legal SLAs. Survey-fee treatment remains provisional pending commercial approval and external/legal review. This PRD does not independently approve or change those rules.
 
-This document does not alter the founder decision to close Gate 1, settle unresolved PRD-005 questions, approve onboarding/legal policies or authorise implementation.
+Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This document does not settle unresolved PRD-005 questions, approve onboarding/legal policies or authorise implementation.
 
 **Review sequence:** Propose → Discuss → Revise → Approve → Commit.
-
-
-## Stage 03 reconciliation amendment — authoritative installer rules
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
-- Installer receives structured homeowner/property/room information and preliminary cooling-load estimates only. Installer owns site verification, final technical design, equipment selection, final scope/price and installation; MVP does not include AR or automated configuration output.
-- Retained timing proposals: 48-hour bidding; homeowner selection within 3 calendar days plus one 3-day extension; installer acknowledgement within 24 hours with reminder after 12 hours. These are proposals, not contractual/legal SLAs.
-- Final-quote non-response proposal: reminder at 48 hours, final reminder at 5 calendar days, Operations follow-up at 7 calendar days. Silence is not acceptance.
-- Accepted operational target: acknowledge a reported issue within 2 working days. This is not a contractual SLA and is subject to external/legal review where relevant.
-- Mutual confirmation of the same final quote and scope/version is required before installation planning. Thereafter homeowner and installer coordinate scheduling/delivery directly; ACPRO records milestones and handles exceptions.
-- Survey-fee treatment remains provisional pending commercial approval and external/legal review.
