@@ -276,7 +276,7 @@ Interpret metrics together; a high submission rate alone does not prove marketpl
 9. What evidence and disclaimers must accompany preliminary cooling-load estimates?
 10. Which property constraints should block submission versus trigger a warning or follow-up?
 11. What data-retention, privacy and consent requirements apply to photos, contact details and sharing job details with installers?
-12. Which proposed PRD-005 timings should remain configurable during the pilot?
+12. Which operational timings should be configurable during the pilot, and what evidence will trigger changes?
 
 ## 10. Dependencies and related documents
 
@@ -293,17 +293,6 @@ Interpret metrics together; a high submission rate alone does not prove marketpl
 
 ## 11. Review status
 
-The content has been approved for repository review. This does not alter the founder decision to close Gate 1, approve unresolved PRD-005 proposals, define the final technical state machine or authorise implementation.
+The content has been approved for repository review. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This does not approve unresolved PRD-005 proposals, define the final technical state machine or authorise implementation.
 
 **Collaboration sequence:** Propose → Discuss → Revise → Approve → Commit.
-
-
-## Stage 03 reconciliation amendment — authoritative journey rules
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. It was not empirically passed.
-- MVP preliminary output is a cooling-load estimate only; no automated configuration, equipment selection/compatibility or AR/visualisation. Installer verifies the property and owns final technical design.
-- Retained proposals: 48-hour bidding; homeowner offer selection within 3 calendar days after bidding closes, extendable once by 3 days; selected-installer acknowledgement within 24 hours with reminder after 12 hours. Expiry does not select an installer or reopen bidding automatically.
-- Final-quote non-response proposal: reminder after 48 hours, final reminder after 5 calendar days, Operations follow-up after 7 calendar days.
-- Completion non-response accepted default: reminder after 48 hours, final reminder after 5 calendar days, Operations review after 7 calendar days.
-- Both parties must confirm the same final quote and scope/version before installation planning. After agreement, homeowner and installer coordinate scheduling directly.
-- Physical completion, homeowner acknowledgement, issue status and administrative closure are distinct. Operations reviews before administrative closure while an issue remains unresolved. Silence is not acceptance, satisfaction or resolution.
