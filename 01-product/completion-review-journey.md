@@ -103,7 +103,7 @@ The interface must explain that acknowledgement records the homeowner's current 
 
 The homeowner may not respond to the completion notification. ACPRO should remind them and mark the case as awaiting homeowner response. No response must not be represented as positive homeowner confirmation.
 
-The final reminder schedule remains open for discussion. If the homeowner does not respond, the case must be referred for ACPRO operations review before any administrative closure decision. Silence must not be treated as homeowner confirmation or satisfaction. Any approved closure without acknowledgement must preserve that distinction and allow later issue reporting through an appropriate route.
+Accepted default: send a reminder after 48 hours, a final reminder after 5 calendar days, and refer for Operations review after 7 calendar days without a homeowner response. Silence must not be treated as homeowner confirmation or satisfaction. Any administrative closure without acknowledgement must preserve that distinction and allow later issue reporting through an appropriate route.
 
 ### Step 7 — Report and resolve an issue
 
