@@ -293,7 +293,7 @@ Interpret metrics together; a high submission rate alone does not prove marketpl
 
 ## 11. Review status
 
-The content has been approved for repository review. This does not pass Gate 1, approve unresolved PRD-005 proposals, define the final technical state machine or authorise implementation.
+The content has been approved for repository review. This does not alter the founder decision to close Gate 1, approve unresolved PRD-005 proposals, define the final technical state machine or authorise implementation.
 
 **Collaboration sequence:** Propose → Discuss → Revise → Approve → Commit.
 
