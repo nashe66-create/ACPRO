@@ -5,7 +5,7 @@
 **Version:** 0.1  
 **Status:** Approved content; awaiting repository review  
 **Stage:** Stage 03 — Product Specification  
-**Gate dependency:** Gate 1 — Marketplace Validation has not been passed. This draft does not change formal gate status or authorise implementation.
+**Gate status:** Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven. This draft does not change formal gate status or authorise implementation.
 
 ---
 
@@ -321,3 +321,13 @@ PRD-005's 48-hour bidding window, three-day homeowner decision period, 24-hour i
 This document does not pass Gate 1, settle unresolved marketplace policy, establish legal/compliance policy or authorise implementation.
 
 **Review sequence:** Propose → Discuss → Revise → Approve → Commit.
+
+## Stage 03 reconciliation amendment — authoritative Operations rules
+
+- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
+- TEC-002 defines installer eligibility and distribution. Strategy, sequencing and prioritisation weights remain undecided; do not silently assume broadcast, batches or sequential invitations.
+- Low/no-offer recovery preserves homeowner control. No automatic installer selection, rebid or distribution expansion; obtain homeowner direction before expanding distribution.
+- Retained proposals: bidding 48 hours from distribution; offer selection 3 calendar days plus one 3-day extension; installer acknowledgement within 24 hours with reminder after 12 hours. Final-quote response proposal: reminders at 48 hours and 5 calendar days; Operations follow-up at 7 calendar days.
+- Accepted completion default: reminder at 48 hours, final reminder at 5 calendar days, Operations review after 7 calendar days. Accepted issue acknowledgement target: 2 working days, operational target only and subject to external/legal review where relevant.
+- Survey-fee treatment remains provisional pending commercial approval and external/legal review.
+- Either party may report cancellation. Operations records reporter, reason if supplied, timestamp/stage and history without adjudicating fault. Operations reviews before administrative closure if an issue remains unresolved. Silence does not imply acceptance, satisfaction or resolution.
