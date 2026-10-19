@@ -283,7 +283,7 @@ These are decisions to make, not a claim that ACPRO already has a compliance fra
 1. What minimum completeness criteria must a homeowner request meet before distribution?
 2. Which job types, locations or circumstances should be excluded or manually reviewed?
 3. What is the installer verification and eligibility policy, including credential expiry?
-4. How are installers selected for distribution, and how are exceptions justified?
+4. How are installers selected for distribution, and how are exceptions justified? TEC-002 must define and document eligibility, distribution strategy, fairness and recovery controls; the strategy and prioritisation weights remain undecided.
 5. Which homeowner details can be shown at each stage?
 6. What is the policy for sharing clarification answers with all bidders?
 7. Which scope changes require a new job version, bidder reconfirmation or deadline change?
@@ -314,20 +314,10 @@ These are decisions to make, not a claim that ACPRO already has a compliance fra
 
 ## 11. Review status
 
-This is a draft for discussion, aligned with PRD-002, PRD-003 and PRD-005.
+This is approved content for repository review, aligned with PRD-002, PRD-003 and PRD-005. Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
 
-PRD-005's 48-hour bidding window, three-day homeowner decision period, 24-hour installer acknowledgement deadline, 12-hour reminder, survey-cost treatment and stage-specific recovery rules are referenced for consistency. They remain subject to PRD-005's own approval status and open questions.
+PRD-005 timing values (48-hour bidding; 3-day homeowner decision with one 3-day extension; 24-hour installer acknowledgement with a 12-hour reminder) remain operational proposals for pilot review, not contractual/legal SLAs. Survey-fee treatment remains provisional pending commercial approval and external/legal review. TEC-002 distribution strategy remains undecided; no distribution method or prioritisation weights are approved by this document.
 
 This document does not alter the founder decision to close Gate 1, settle unresolved marketplace policy, establish legal/compliance policy or authorise implementation.
 
 **Review sequence:** Propose → Discuss → Revise → Approve → Commit.
-
-## Stage 03 reconciliation amendment — authoritative Operations rules
-
-- Gate 1 was closed by founder decision with risk accepted; commercial validation remains unproven.
-- TEC-002 defines installer eligibility and distribution. Strategy, sequencing and prioritisation weights remain undecided; do not silently assume broadcast, batches or sequential invitations.
-- Low/no-offer recovery preserves homeowner control. No automatic installer selection, rebid or distribution expansion; obtain homeowner direction before expanding distribution.
-- Retained proposals: bidding 48 hours from distribution; offer selection 3 calendar days plus one 3-day extension; installer acknowledgement within 24 hours with reminder after 12 hours. Final-quote response proposal: reminders at 48 hours and 5 calendar days; Operations follow-up at 7 calendar days.
-- Accepted completion default: reminder at 48 hours, final reminder at 5 calendar days, Operations review after 7 calendar days. Accepted issue acknowledgement target: 2 working days, operational target only and subject to external/legal review where relevant.
-- Survey-fee treatment remains provisional pending commercial approval and external/legal review.
-- Either party may report cancellation. Operations records reporter, reason if supplied, timestamp/stage and history without adjudicating fault. Operations reviews before administrative closure if an issue remains unresolved. Silence does not imply acceptance, satisfaction or resolution.
