@@ -4,7 +4,8 @@
 **Document:** PRD-001 — Product Vision  
 **Version:** 1.0  
 **Status:** Draft for review  
-**Gate:** Gate 0 — Product Definition
+**Stage:** Stage 03 — Product Specification
+**Review status:** Consolidated draft for review
 
 ---
 
