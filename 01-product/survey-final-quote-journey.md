@@ -13,7 +13,7 @@
 
 Define how a selected installer and homeowner move from selection through any required survey, technical verification, final quote and explicit agreement on final scope and price.
 
-This document complements PRD-002 — Homeowner Journey, PRD-003 — Installer Journey, PRD-004 — Admin / Operations Journey and PRD-005 — Bid & Quote Journey. PRD-005 remains the primary reference for bidding, selection, withdrawal and recovery. Reminder timings and other rules must be reconciled with PRD-005 before implementation.
+This document complements PRD-002 — Homeowner Journey, PRD-003 — Installer Journey, PRD-004 — Admin / Operations Journey and PRD-005 — Bid & Quote Journey. PRD-005 remains the primary reference for bidding, selection, withdrawal and recovery. The final-quote response timer is separate from bidding and selection timers; both remain operational proposals for pilot review, not contractual/legal SLAs.
 
 This document does not define detailed UI, database schemas, APIs, technical design calculations, legal contract terms or installation state machines.
 
@@ -127,7 +127,7 @@ Every final quote must specify an expiry date set by the installer. An expired q
 
 If the homeowner rejects the revised price, follow PRD-005 recovery. Possible outcomes include explanation, an agreed alternative scope, declining the job, reconfirming a still-valid prior offer, reopening bidding under PRD-005 or closing without installation. Whether an installer may bid again depends on approved PRD-005 rules.
 
-**Proposed non-response timing:** notify the homeowner when the final quote is issued; remind after 48 hours; send a final reminder after five calendar days; after seven calendar days without response, mark the job response overdue for manual follow-up. Reconcile these timings with PRD-005 before implementation. Silence is never acceptance and does not authorise automatic installer selection.
+**Proposed non-response timing:** notify the homeowner when the final quote is issued; remind after 48 hours; send a final reminder after 5 calendar days; after 7 calendar days without response, mark the job overdue for Operations follow-up. This is a quote-specific timer, separate from bidding and selection timers, and remains an operational proposal for pilot review rather than a contractual/legal SLA. Silence is never acceptance and does not authorise automatic installer selection.
 
 ### Step 9 — Confirm the final agreement
 
@@ -153,7 +153,7 @@ The product owner has approved these working defaults:
 1. **Survey fees — provisional:** no separate ACPRO survey fee by default. Installer survey-cost treatment, including who bears the cost if the homeowner does not proceed, requires explicit commercial approval and external/legal review.
 2. **Appointments:** record cancellations and missed appointments; allow rescheduling; no automatic ACPRO penalty or charge. Manual operations review is available.
 3. **Quote validity:** every final quote has an expiry date set by the installer; expired quotes require reconfirmation.
-4. **Non-response:** 48-hour reminder, five-day final reminder and manual follow-up after seven calendar days, subject to reconciliation with PRD-005.
+4. **Non-response — operational proposal:** 48-hour reminder, 5-calendar-day final reminder and Operations follow-up after 7 calendar days. This timer is distinct from bidding and selection timers and is subject to pilot review.
 5. **Material changes:** explain changes that could affect the homeowner's decision and require renewed explicit confirmation.
 6. **Corrections:** preserve versions; never silently change an accepted quote.
 7. **Final quote minimum:** price/VAT, scope, equipment/materials, inclusions/exclusions, assumptions/dependencies, timing where known, actual warranty commitments, expiry, payment terms and explanation of material differences.
@@ -164,7 +164,7 @@ The product owner has approved these working defaults:
 12. **Records and retention:** preserve quote versions, explanations, confirmations, relevant survey summaries and operations interventions. Exact retention periods, deletion rules and access controls require separate legal/privacy review; this PRD does not invent a period.
 13. **Pilot metrics:** track journey speed, survey completion/rescheduling, initial-to-final changes, quote corrections, acceptance/conversion, expiry/non-response/withdrawal, two-party confirmation and operations time. Metrics are diagnostic, not automatic grounds for installer penalties.
 
-**External review and reconciliation required:** review survey-cost policy and consumer terms before binding them; confirm retention/privacy rules with appropriate advice; reconcile reminder timings with PRD-005; validate commercial assumptions during the pilot. These are implementation dependencies, not unresolved product questions about the default workflow.
+**External review and reconciliation required:** review survey-cost policy and consumer terms before binding them; confirm retention/privacy rules with appropriate advice; review the separate reminder timers during the pilot; validate commercial assumptions during the pilot. These are implementation dependencies, not unresolved product questions about the default workflow.
 
 ## 8. Exceptions and recovery
 
