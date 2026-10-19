@@ -275,7 +275,7 @@ Each stage should build on the previous stage and be informed by evidence from c
 
 ## 8.1 Stage 1 — Structured Request and Preliminary Cooling-Load Assessment
 
-**Purpose:** Turn a homeowner's requirements into a structured installation opportunity with an initial assessment of potential system configurations.
+**Purpose:** Turn a homeowner's requirements into a structured installation opportunity with a preliminary cooling-load estimate.
 
 The platform collects information about the property, rooms and the homeowner's cooling requirements.
 
@@ -291,7 +291,7 @@ The cooling-load estimate is preliminary, not a technically validated design. Th
 
 This stage could introduce more detailed configuration logic, manufacturer and equipment compatibility data, and comparisons between suitable alternatives.
 
-The aim is to improve the quality and usefulness of recommendations beyond the preliminary configuration logic introduced in Stage 1.
+The aim is to introduce advanced configuration recommendations only if validated needs, available technical data and marketplace evidence justify the investment.
 
 The scope of these capabilities will be determined by validated needs, available technical data and the results of the initial marketplace.
 
