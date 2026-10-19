@@ -101,7 +101,7 @@ The working roadmap is defined in [00-project-control/master-roadmap.md](00-proj
 
 The project should continue with the next unfinished deliverable rather than skipping ahead because a later feature appears attractive.
 
-## 6. Current Stage — Stage 02: Market & Customer Validation
+## 6. Current Stage — Stage 03: Product Specification
 
 **Current working focus:** Establish evidence about the UK residential AC market, competitors, local installer supply and homeowner buying behaviour.
 
@@ -147,9 +147,9 @@ Primary research and further evidence review are still required.
 
 ### Formal gate-status discrepancy
 
-The current [Gate Status document](00-project-control/gate-status.md) on `main` says **Gate 0 — Product Definition: In progress**, while the current working activity in our project discussions has moved to Stage 02 research.
+Gates 0 and 1 were closed by founder decision. Gate 1 was closed with risk accepted; commercial validation remains unproven. Current work is Stage 03 Product Specification, including reconciliation of PRD-001 to PRD-008 against the approved consolidated baseline (STG03-001 / PR #11).
 
-This discrepancy is recorded, not silently resolved here. The formal gate status should be reviewed and updated through the normal project-control process. This context document does not itself pass Gate 0 or Gate 1.
+Gate closure reflects a founder decision, not empirical proof of marketplace validation. The constrained pilot must test commercial assumptions before scale-up or major investment.
 
 ## 7. Repository Reference Points
 
@@ -159,7 +159,7 @@ Repository: https://github.com/nashe66-create/ACPRO
 
 - [Repository README](README.md) — high-level product overview, MVP boundary and working rule.
 - [Master Development Roadmap](00-project-control/master-roadmap.md) — controlling roadmap and gate sequence.
-- [Gate Status](00-project-control/gate-status.md) — formal gate status; currently records Gate 0 as in progress on `main`.
+- [Gate Status](00-project-control/gate-status.md) — formal gate record; Gates 0 and 1 were closed by founder decision, with Gate 1 risk accepted and commercial validation unproven.
 - [Document Guidelines](00-project-control/document-guidelines.md) — collaborative approval and change-control rules.
 - [PRD-001 — Product Vision](01-product/product-vision.md) — product vision, problem, value proposition, product model, principles and MVP direction.
 - [PR #1 — PRD-005: Bid & Quote Journey](https://github.com/nashe66-create/ACPRO/pull/1) — draft pull request for the bid and quote journey.
@@ -233,7 +233,7 @@ At the beginning of a future ACPRO session:
 5. Continue from the latest approved state.
 6. Keep proposed changes separate from approved decisions until explicitly agreed.
 
-**Immediate next deliverable:** Review and refine the Stage 02 research workbook, then use its evidence to review the Validation Register.
+**Immediate next deliverable:** Finish reconciliation of PRD-001 to PRD-008 and obtain product-owner approval; then proceed to Stage 04 — Domain Model. Do not merge draft PRs or begin implementation without relevant explicit approval.
 
 No product decision or repository change is authorised merely by recording it in this context document.
 
