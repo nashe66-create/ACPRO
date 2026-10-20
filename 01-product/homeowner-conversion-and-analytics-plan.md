@@ -28,11 +28,15 @@ The homeowner may only know a room is uncomfortable and want to understand the p
 - Explain that installers confirm site suitability, scope and final price.
 - No unsupported testimonials, guarantees, savings or installer-count claims.
 
-### 1. Property
-- Postcode followed by exact address lookup/selection and confirmation.
-- Manual address entry fallback if lookup is unavailable or fails.
+### 1. Property and address
+- Ask for the postcode first.
+- Use Postcodes.io as the initial free service to validate the UK postcode and retrieve postcode/location information. It does not return a complete list of individual house/flat addresses.
+- After postcode validation, ask the homeowner to enter and confirm their house number/name, street and town/city. Keep the postcode in the address form so the homeowner can review the complete address before continuing.
+- Manual address entry is the normal MVP path, not an error-only workaround. Do not imply that an address has been found automatically.
+- If postcode validation is unavailable or fails, explain this in plain language and allow manual entry, with a clear check that the postcode looks correct.
 - Property type using clear UK terms: house, flat/maisonette, bungalow, other.
 - Explain why the full address is needed. Do not send full address or postcode to analytics.
+- Do not block the request solely because a postcode API is temporarily unavailable; preserve what the homeowner has entered.
 
 ### 2. Rooms and needs
 - Visual room cards: living room, bedroom, multiple rooms/whole home, home office, kitchen, not sure.
@@ -57,6 +61,16 @@ The homeowner may only know a room is uncomfortable and want to understand the p
 - Explain next steps without inventing response-time guarantees.
 - Provide recovery/help route.
 - Never collect details then force the homeowner into a sign-in wall.
+
+## Address provider decision — MVP
+**Chosen for now:** Postcodes.io for postcode validation/location data, with manual entry and confirmation of the exact property address.
+
+- No API key or paid lookup balance is intended for this initial approach.
+- Postcodes.io is not an individual-property address autocomplete database. Do not build the UI as though it can suggest house/flat addresses.
+- Keep address lookup behind a small provider boundary so ACPRO can later replace or supplement it with a dedicated address service if exact-address autocomplete proves worthwhile.
+- If postcode lookup fails, allow the homeowner to continue with manual address entry and a clear validation message.
+- Never place the full address, postcode or lookup query in analytics, application logs or error-reporting payloads.
+- Revisit a paid address autocomplete provider only after measuring manual-entry errors, abandonment and cost/benefit.
 
 ## Instrumentation and privacy
 - Use session-level funnel events by default. Link them to a person/job only after submission and appropriate disclosure.
@@ -116,18 +130,19 @@ Establish a baseline and validate tracking first. Run moderated usability sessio
 
 ## Acceptance criteria
 - A homeowner can submit without creating a password or choosing a technical system.
-- Full address is confirmed; manual fallback works.
+- Full address is confirmed; manual entry works without depending on exact-address autocomplete.
+- Postcode validation uses Postcodes.io when available and degrades gracefully if unavailable.
 - Planner and specific unit preference can be skipped.
 - Answers persist through back/forward navigation and recoverable errors.
 - Success is shown only after durable server confirmation.
 - Analytics contains no personal form values or exact address.
 - Analytics failure never interrupts completion; events are deduplicated or have unique IDs.
 - Mobile and keyboard-only journeys tested.
-- Privacy notice, lawful basis, provider, retention and contact-sharing language reviewed before public launch.
+- Privacy notice, lawful basis, retention and contact-sharing language reviewed before public launch.
 - Database/RLS, abuse prevention, rate limiting and spam handling reviewed before public launch.
 
 ## Dependencies
-- Choose address lookup provider and verify coverage, cost and terms.
+- Implement Postcodes.io postcode validation and manual exact-address capture; confirm API behaviour and error handling during implementation.
 - Confirm minimum contact fields and whether phone is required for the pilot.
 - Design secure unauthenticated submission/resumable drafts; never expose service-role credentials to the browser.
 - Choose first-party event storage or consent-compliant analytics provider.
