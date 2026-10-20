@@ -40,8 +40,7 @@ export default async function NewJobPage({ searchParams }: { searchParams: Promi
             <div className="field">
               <label htmlFor="rooms_count">How many rooms?</label>
               <select id="rooms_count" name="rooms_count" defaultValue="1">
-                {Array.from({ length: 12 }, (_, i) => <option key={i + 1} value={i + 1}>{i + 1} {i === 0 ? "room" : "rooms"}</option>)}
-                <option value="12">12 or more rooms</option>
+                {Array.from({ length: 12 }, (_, i) => <option key={i + 1} value={i + 1}>{i === 11 ? "12 or more rooms" : `${i + 1} ${i === 0 ? "room" : "rooms"}`}</option>)}
               </select>
             </div>
             <div className="field">
