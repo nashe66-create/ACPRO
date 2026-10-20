@@ -92,7 +92,7 @@ Common fields: event_id, event_name, occurred_at, pseudonymous session_id, flow_
 | homeowner_step_completed | Valid step passes and user advances | step_id, duration bucket, count of optional fields completed |
 | homeowner_step_back | Previous step selected | from_step, to_step |
 | homeowner_lookup_started | Address lookup requested | provider category only; no query/address |
-| homeowner_lookup_succeeded | Suggestions returned | suggestion-count bucket |
+| homeowner_lookup_succeeded | Postcodes.io confirms a postcode | provider category only; no postcode or address |
 | homeowner_lookup_failed | Lookup fails | error category only |
 | homeowner_planner_opened | Optional planner opened | entry step |
 | homeowner_planner_completed | Room arrangement confirmed | room-count bucket only; no geometry |
